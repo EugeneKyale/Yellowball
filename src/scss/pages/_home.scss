@@ -89,4 +89,28 @@
         margin-top: -60px;
     }
 
+    &__logos {
+        margin-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 25px;
+
+        &Wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 33.33%;
+            min-height: 55px;
+
+            img {
+                width: 75px;
+                object-fit: contain;
+                display: block;
+                height: auto;
+                max-width: 100%;
+            }
+        }
+    }
+
 }

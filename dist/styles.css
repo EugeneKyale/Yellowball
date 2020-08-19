@@ -119,3 +119,27 @@ body {
   margin: 0 auto;
   margin-top: -60px;
 }
+
+.home__logos {
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+.home__logosWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+  min-height: 55px;
+}
+
+.home__logosWrapper img {
+  width: 75px;
+  object-fit: contain;
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
