@@ -94,6 +94,10 @@ body {
   font-weight: bold;
 }
 
+.home__bottomSection {
+  padding-bottom: 30px;
+}
+
 .home__searchSection {
   opacity: 0.08;
   font-family: 'Alice', serif;
@@ -114,5 +118,4 @@ body {
   max-width: 85%;
   margin: 0 auto;
   margin-top: -60px;
-  margin-bottom: 90px;
 }
