@@ -34,6 +34,13 @@ body {
   height: auto;
 }
 
+@media only screen and (min-width: 768px) {
+  .home__topSection {
+    background: url("../../images/home-bg.png") no-repeat center;
+    background-size: cover;
+  }
+}
+
 .home__bottomSection {
   background-color: #2a3744;
   height: auto;
@@ -49,12 +56,27 @@ body {
   margin: 0 auto;
 }
 
+@media only screen and (min-width: 768px) {
+  .home__textWrapper {
+    max-width: 585px;
+    margin: 0 140px;
+  }
+}
+
 .home__textWrapper h1 {
   font-size: 38px;
   line-height: 1.37;
   letter-spacing: -1.33px;
   color: #fff;
   padding-top: 130px;
+}
+
+@media only screen and (min-width: 768px) {
+  .home__textWrapper h1 {
+    font-size: 72px;
+    line-height: 1.28;
+    letter-spacing: -2.52px;
+  }
 }
 
 .home__textWrapper p {

@@ -2,6 +2,11 @@
     &__topSection {
         background: url("../../images/home-mobile-bg.png") no-repeat center;
         height: auto;
+
+        @media only screen and (min-width: 768px) {
+            background: url("../../images/home-bg.png") no-repeat center;
+            background-size: cover;
+        }
     }
 
     &__bottomSection {
@@ -18,12 +23,23 @@
         max-width: 90%;
         margin: 0 auto;
 
+        @media only screen and (min-width: 768px) {
+            max-width: 585px;
+            margin: 0 140px;
+        }
+
         h1 {
             font-size: 38px;
             line-height: 1.37;
             letter-spacing: -1.33px;
             color: #fff;
             padding-top: 130px;
+
+            @media only screen and (min-width: 768px) {
+                font-size: 72px;
+                line-height: 1.28;
+                letter-spacing: -2.52px;
+            }
         }
 
         p {
