@@ -1,0 +1,89 @@
+.home {
+    background: url("../../images/home-mobile-bg.png") no-repeat center;
+    height: auto;
+
+    &__textWrapper {
+        // padding: 130px 25px 250px;
+        max-width: 90%;
+        margin: 0 auto;
+
+        h1 {
+            font-size: 38px;
+            line-height: 1.37;
+            letter-spacing: -1.33px;
+            color: #fff;
+            padding-top: 130px;
+        }
+
+        p {
+            margin: 30px 0 45px;
+            color: #fff;
+        }
+
+        a {
+            color: #fff;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    }
+
+    &__btnCircle {
+        position: relative;
+        margin-left: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        min-width: 50px;
+        height: 50px;
+
+        &::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            background-color: #ffc90d;
+            border-radius: 50%;
+            content: "";
+            transition: all .3s ease-in;
+            display: flex;
+        }
+    }
+
+    &__btnArrow {
+        position: relative;
+        z-index: 2;
+        width: 20px;
+        height: 8px;
+        display: block;
+        color: #000;
+        font-weight: bold;
+    }
+
+    &__searchSection {
+        opacity: 0.08;
+        font-family: 'Alice', serif;
+        font-size: 108px;
+        letter-spacing: -3.78px;
+        text-align: right;
+        color: #fff;
+        margin: 300px 13px 0;
+    }
+
+    &__searchDesc {
+        color: #fff;
+        font-family: 'Alice', serif;
+        font-size: 21px;
+        line-height: 1.62;
+        letter-spacing: -0.74px;
+        text-align: right;
+        max-width: 85%;
+        margin: 0 auto;
+        margin-top: -60px;
+        margin-bottom: 90px;
+    }
+
+}
