@@ -29,9 +29,19 @@ body {
   margin: 0;
 }
 
-.home {
+.home__topSection {
   background: url("../../images/home-mobile-bg.png") no-repeat center;
   height: auto;
+}
+
+.home__bottomSection {
+  background-color: #2a3744;
+  height: auto;
+  padding: 60px 0;
+}
+
+.home__fadeBottom {
+  background-image: linear-gradient(to bottom, #2a3744, rgba(59, 60, 74, 0), #2a3744);
 }
 
 .home__textWrapper {
@@ -94,7 +104,7 @@ body {
   font-weight: bold;
 }
 
-.home__bottomSection {
+.home__top-bottomSection {
   padding-bottom: 30px;
 }
 
@@ -139,7 +149,6 @@ body {
 .home__logosWrapper img {
   width: 75px;
   object-fit: contain;
-  display: block;
   height: auto;
   max-width: 100%;
 }

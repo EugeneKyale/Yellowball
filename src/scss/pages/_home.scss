@@ -1,9 +1,20 @@
 .home {
-    background: url("../../images/home-mobile-bg.png") no-repeat center;
-    height: auto;
+    &__topSection {
+        background: url("../../images/home-mobile-bg.png") no-repeat center;
+        height: auto;
+    }
+
+    &__bottomSection {
+        background-color: #2a3744;
+        height: auto;
+        padding: 60px 0;
+    }
+
+    &__fadeBottom {
+        background-image: linear-gradient(to bottom, #2a3744, rgba(59, 60, 74, 0), #2a3744);
+    }
 
     &__textWrapper {
-        // padding: 130px 25px 250px;
         max-width: 90%;
         margin: 0 auto;
 
@@ -63,7 +74,7 @@
         font-weight: bold;
     }
 
-    &__bottomSection {
+    &__top-bottomSection {
         padding-bottom: 30px;
     }
 
@@ -106,7 +117,6 @@
             img {
                 width: 75px;
                 object-fit: contain;
-                display: block;
                 height: auto;
                 max-width: 100%;
             }
