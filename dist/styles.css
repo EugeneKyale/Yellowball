@@ -36,8 +36,10 @@ body {
 
 @media only screen and (min-width: 768px) {
   .home__topSection {
-    background: url("../../images/home-bg.png") no-repeat center;
+    background: url("../../images/HOME-image.jpg") no-repeat center;
     background-size: cover;
+    height: 200vh;
+    padding: 100px 50px;
   }
 }
 
@@ -130,6 +132,14 @@ body {
   padding-bottom: 30px;
 }
 
+@media only screen and (min-width: 768px) {
+  .home__top-bottomSection {
+    max-width: 500px;
+    float: right;
+    margin-right: 250px;
+  }
+}
+
 .home__searchSection {
   opacity: 0.08;
   font-family: 'Alice', serif;
@@ -138,6 +148,14 @@ body {
   text-align: right;
   color: #fff;
   margin: 300px 13px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .home__searchSection {
+    font-size: 225px;
+    line-height: 1.96;
+    letter-spacing: -7.88px;
+  }
 }
 
 .home__searchDesc {
@@ -152,12 +170,30 @@ body {
   margin-top: -60px;
 }
 
+@media only screen and (min-width: 768px) {
+  .home__searchDesc {
+    font-size: 36px;
+    line-height: 1.53;
+    letter-spacing: -1.26px;
+    max-width: 100%;
+    margin-top: -200px;
+  }
+}
+
 .home__logos {
   margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 25px;
+}
+
+@media only screen and (min-width: 768px) {
+  .home__logos {
+    max-width: 75%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
 }
 
 .home__logosWrapper {
@@ -168,11 +204,24 @@ body {
   min-height: 55px;
 }
 
+@media only screen and (min-width: 768px) {
+  .home__logosWrapper {
+    width: 16.66%;
+  }
+}
+
 .home__logosWrapper img {
   width: 75px;
   object-fit: contain;
   height: auto;
   max-width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .home__logosWrapper img {
+    height: 79.9px;
+    width: 110px;
+  }
 }
 
 .home__cards {
