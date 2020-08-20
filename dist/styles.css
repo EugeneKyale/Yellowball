@@ -49,6 +49,12 @@ body {
   padding: 60px 0;
 }
 
+@media only screen and (min-width: 768px) {
+  .home__bottomSection {
+    padding: 100px 0;
+  }
+}
+
 .home__fadeBottom {
   background-image: linear-gradient(to bottom, #2a3744, rgba(59, 60, 74, 0), #2a3744);
 }

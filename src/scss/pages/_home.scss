@@ -15,6 +15,10 @@
         background-color: #2a3744;
         height: auto;
         padding: 60px 0;
+
+        @media only screen and (min-width: 768px) {
+            padding: 100px 0;
+        }
     }
 
     &__fadeBottom {
